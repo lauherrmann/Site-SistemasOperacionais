@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux</title>
+    <link rel="stylesheet" href="linux4.css" type="text/css">
+</head>
+<body>
+    <header class="header2">
+        <img src="logo/LOGO AUTOBOTS.png" alt="logotipo" height="50px">
+        <nav>
+             <h1 class="navegacao">
+             <a href="home.html" target="_self">HOME</a>
+             </h1>
+             <h1 class="navegacao">
+             <a href="sobre.html" target="_self">SOBRE</a>
+             </h1>
+             <h1 class="navegacao">
+             <a href="contato.html" target="_self">CONTATO</a>
+             </h1>
+        </nav>
+    </header>
+    <article>
+        <h1>
+            Instalação e uso de servidor web no Linux
+        </h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ME_FwG6D8SQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div>
+            <ol>
+                <li>
+                    A instalação do apache é simples e, para isso, basta abrir o terminal e inserir o comando: sudo apt install apache2
+                </li>
+                <li>
+                    Depois de instalar o apache, é necessário ajustar as configurações do Firewall. Basta utilizar o comando: sudo ufw app list
+                </li>
+                <li>
+                    Depois, é necessário escolher o perfil Apache:sudo ufw allow in "Apache"
+                </li>
+                <li>
+                    É possível verificar o estado do Firewall com o comando: sudo ufw status
+                </li>
+                <li>
+                    Por último, é possível verificar se o serviço está operando. Basta abrir o navegador e inserir o endereço da máquina que tem o Ubuntu instalado. 
+                </li>
+            </ol>
+        </div>
+    </article>
+    <footer>
+        <div>
+            
+        </div>
+    </footer>
+</body>
+</html>
